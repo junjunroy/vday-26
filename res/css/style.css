@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+object {
+    position: absolute;
+}
+
+.obj_greet {
+    bottom: 33vmin;
+    left: 68vmin;
+}
+
+.obj_bebu {
+    bottom: 25vmin;
+    left: 84vmin;
+}
+
+object.obj_rose1 {
+    position: absolute;
+    bottom: 5vmin;
+    left: 105vmin;
+    transform: rotate(60deg);
+    scale: 0.9;
+}
+
+.obj_rose2 {
+    position: absolute;
+    bottom: 4vmin;
+    left: 85vmin;
+    transform: rotate(-58deg);
+    scale: 0.9;
+}
+

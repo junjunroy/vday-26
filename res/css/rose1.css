@@ -1,0 +1,5 @@
+@keyframes draw_rose1 {
+    to {
+        stroke-dashoffset: 0;
+    }
+}

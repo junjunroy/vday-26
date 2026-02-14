@@ -1,0 +1,14 @@
+@keyframes invis {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes anm_fill {
+    from {
+        fill: white;
+    }
+    to {
+        fill: black;
+    }
+}
